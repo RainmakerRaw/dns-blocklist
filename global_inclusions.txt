@@ -1,3 +1,4 @@
+! Monero stuff
 donate.xmr-stak.net
 donate.*.xmrig.com
 testip.internet-census.org
