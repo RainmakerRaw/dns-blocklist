@@ -4,28 +4,34 @@
     "homepage": "https://dns.oursecure.network/",
     "license": "CC0-1.0",
     "sources": [
-      {
-        "name": "1Hosts Lite",
-        "source": "https://o0.pages.dev/Lite/adblock.txt",
-        "type": "adblock",
-        "transformations": ["RemoveComments", "Compress"]
-      },
-      {
-        "name": "Hagezi Pro",
-        "source": "https://raw.githubusercontent.com/hagezi/dns-blocklists/main/adblock/pro.txt",
-        "type": "adblock",
-        "transformations": ["RemoveComments", "Compress"]
-      },
-      {
-        "name": "OISD Big",
-        "source": "https://big.oisd.nl/",
-        "type": "adblock",
-        "transformations": ["RemoveComments", "Compress"]
-      }
-    ],
+        {
+          "name": "Personal rules",
+          "source": "/volume1/software/dns-blocklist/personal.txt",
+          "type": "adblock",
+          "transformations": ["RemoveComments", "Compress"]
+        },
+        {
+          "name": "1Hosts Lite",
+          "source": "https://o0.pages.dev/Lite/adblock.txt",
+          "type": "adblock",
+          "transformations": ["RemoveComments", "Compress"]
+        },
+        {
+          "name": "Hagezi Pro",
+          "source": "https://raw.githubusercontent.com/hagezi/dns-blocklists/main/adblock/pro.txt",
+          "type": "adblock",
+          "transformations": ["RemoveComments", "Compress"]
+        },
+        {
+          "name": "OISD Big",
+          "source": "https://big.oisd.nl/",
+          "type": "adblock",
+          "transformations": ["RemoveComments", "Compress"]
+        }
+      ],
     "transformations": ["Deduplicate", "RemoveEmptyLines", "TrimLines", "Compress"],
     "exclusions": [],
-    "exclusions_sources": ["global_exclusions.txt"],
+    "exclusions_sources": ["/volume1/software/dns-blocklist/global_exclusions.txt"],
     "inclusions": ["*"],
-    "inclusions_sources": ["global_inclusions.txt"]
-  }
+    "inclusions_sources": ["/volume1/software/dns-blocklist/global_inclusions.txt"]
+}
