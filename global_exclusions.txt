@@ -1,0 +1,13 @@
+captive.apple.com
+doh.dns.apple.com
+doh.dns.apple.com.v.aaplimg.com
+mask-api.icloud.com
+mask-api.fe.apple-dns.net
+mask.apple-dns.net
+mask.icloud.com
+mask-h2.icloud.com
+minexmr.com
+moneroocean.stream
+hashvault.pro
+supportxmr.com
+xmrig.com
