@@ -17,8 +17,20 @@
           "transformations": ["RemoveComments", "Compress"]
         },
         {
-          "name": "Hagezi Pro",
+          "name": "Hagezi's Pro blocklist",
           "source": "https://raw.githubusercontent.com/hagezi/dns-blocklists/main/adblock/pro.txt",
+          "type": "adblock",
+          "transformations": ["RemoveComments", "Compress"]
+        },
+        {
+          "name": "Hagezi's Referral Whitelist",
+          "source": "https://raw.githubusercontent.com/hagezi/dns-blocklists/main/adblock/whitelist-referral.txt",
+          "type": "adblock",
+          "transformations": ["RemoveComments", "Compress"]
+        },
+        {
+          "name": "Hagezi's URL Shortener Whitelist",
+          "source": "https://raw.githubusercontent.com/hagezi/dns-blocklists/main/adblock/whitelist-urlshortener.txt",
           "type": "adblock",
           "transformations": ["RemoveComments", "Compress"]
         },

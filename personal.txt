@@ -1,4 +1,4 @@
-! BLACKLIST
+! PERSONAL BLACKLIST
 ! Monero stuff
 ||donate.xmr-stak.net^
 ||donate.*.xmrig.com^
@@ -19,7 +19,7 @@
 ||dns.google*^
 ||dns.opendns.*^
 ||resolver*.opendns.*^
-! WHITELIST
+! PERSONAL WHITELIST
 ! Don't block iCloud private relay
 ||captive.apple.com^
 ||doh.dns.apple.com^
