@@ -1,0 +1,55 @@
+{
+    "name": "Rainmaker's list",
+    "description": "Compiled filter list for family use",
+    "homepage": "https://dns.oursecure.network/",
+    "license": "CC0-1.0",
+    "sources": [
+        {
+          "name": "Personal blocklist",
+          "source": "personal-blocklist.txt",
+          "type": "adblock",
+          "transformations": ["RemoveComments", "Compress"]
+        },
+        {
+          "name": "Personal whitelist",
+          "source": "personal-whitelist.txt",
+          "type": "adblock",
+          "transformations": ["RemoveComments", "Compress"]
+        },
+       {
+          "name": "1Hosts Lite",
+          "source": "https://o0.pages.dev/Lite/adblock.txt",
+          "type": "adblock",
+          "transformations": ["RemoveComments", "Compress"]
+        },
+        {
+          "name": "Hagezi's Pro blocklist",
+          "source": "https://raw.githubusercontent.com/hagezi/dns-blocklists/main/adblock/pro.txt",
+          "type": "adblock",
+          "transformations": ["RemoveComments", "Compress"]
+        },
+        {
+          "name": "Hagezi's Referral Whitelist",
+          "source": "https://raw.githubusercontent.com/hagezi/dns-blocklists/main/adblock/whitelist-referral.txt",
+          "type": "adblock",
+          "transformations": ["RemoveComments", "Compress"]
+        },
+        {
+          "name": "Hagezi's URL Shortener Whitelist",
+          "source": "https://raw.githubusercontent.com/hagezi/dns-blocklists/main/adblock/whitelist-urlshortener.txt",
+          "type": "adblock",
+          "transformations": ["RemoveComments", "Compress"]
+        },
+        {
+          "name": "OISD Big",
+          "source": "https://big.oisd.nl/",
+          "type": "adblock",
+          "transformations": ["RemoveComments", "Compress"]
+        }
+      ],
+    "transformations": ["Deduplicate", "RemoveEmptyLines", "TrimLines", "Compress"],
+    "exclusions": [],
+    "exclusions_sources": [],
+    "inclusions": ["*"],
+    "inclusions_sources": []
+}
