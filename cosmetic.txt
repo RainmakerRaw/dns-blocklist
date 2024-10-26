@@ -1,0 +1,126 @@
+*$popunder,domain=xhamster.*,badfilter
+||1337x.to^$csp=script-src 'self' 'unsafe-inline' 'unsafe-eval' data:,badfilter
+||1337x.to^$csp=script-src 'self' 'unsafe-inline' 'unsafe-eval' data: challenges.cloudflare.com
+||*.*/js/matomo-tracking.*.js$script,1p
+||creative.dailymail.co.uk/modules/commercial/article/GB/tvshowbiz.html$subdocument
+||discord.com/api/*/typing
+||*ebay*^*/check.js
+||gateway.reddit.com/desktopapi/v1/comments_page_ads$xhr,domain=reddit.com,important
+||gateway.reddit.com/desktopapi/v1/sidebar_ads$xhr,domain=reddit.com,important
+||piholenet.b-cdn.net^$domain=pi-hole.net
+||pornhub.com/utils/reportTimeWatched$xhr,domain=pornhub.com
+||redditstatic.com/desktop2x/js/ads.js$script,domain=reddit.com,important
+||s2-prod.liverpoolecho.co.uk/@trinitymirrordigital/marwood/TM/contributions/img/bird.png$image
+||torrindex.net/images/epv*$image
+||www.pornhub.com/utils/reportTimeWatched$xhr,domain=www.pornhub.com
+@@||f1countdown.com^$ghide
+9to5linux.com###text-16
+9to5linux.com##.darkmysite_style_secondary_bg.darkmysite_processed.darkmysite_style_all.widget_block.widget
+account.ring.com##.fQEAVF.styled__WidgetContainer-sc-7bb5b765-8
+allaboutdogfood.co.uk##.whitebox_ad
+ap.www.namecheap.com##.gb-x-sell--row.gb-row
+arstechnica.com##.ad_crown.ad
+arstechnica.com##.fullwidth.ad_fullwidth.ad
+arstechnica.com##.ad_instream.ad
+arstechnica.com##.post-page.article-content > .ad_wrapper > .ad_notice
+blog.ssdnodes.com###preview > .column
+blog.ssdnodes.com##p:nth-of-type(3)
+blog.ssdnodes.com##.size-full.wp-image-5501.alignnone
+blog.ssdnodes.com##.rail-top.cta-rail > p
+blog.ssdnodes.com##.cta-inline
+bostonglobe.com###ad_billboard
+bostonglobe.com###sticky_container
+briskoda.net###snack_ldb
+briskoda.net###snack_dex8
+duckduckgo.com##.has-main-source.js-module--products.module--carousel-products.module--carousel.module
+ettv.to##.kr_cr
+eurogamer.net###leaderboard
+eurogamer.net##.sidebar
+f8lure.mouselike.org##.motdbox > table
+f8lure.mouselike.org##td > div
+facebook.com##div[data-pagelet^="FeedUnit"]:has(a:has-text(/^S[a-zA-Z0-9]*p[a-zA-Z0-9]*o[a-zA-Z0-9]*n[a-zA-Z0-9]*s[a-zA-Z0-9]*o[a-zA-Z0-9]*r[a-zA-Z0-9]*e[a-zA-Z0-9]*d/)) 
+fontsquirrel.com###font_body_ad
+fontsquirrel.com###full_sidebar > div:nth-of-type(1)
+forums.overclockers.co.uk###header > div.p-header-inner > div.p-header-content > div.header-right:last-child
+forums.servethehome.com##.p-header
+hdtoday.cc##.my-3.os-792
+iamroadsmart.com###tracking-consent-dialog
+independent.co.uk##.dUrmQP.sc-pQEbo.eYPEZX.sc-pHIBf
+independent.co.uk##.bsRGkV.sc-pYA-dN.dUrmQP.sc-pQEbo
+independent.co.uk##.cQVMki.sc-pAwOa.fXcTtH.sc-qPIWj
+independent.co.uk##.kSkqbf.sc-pYcnE
+independent.co.uk##.jQQLAs.sc-jvnorj.gTUWcS.sc-bRRnes
+just-eat.co.uk##.u-overlay.MegaModal_c-megaModal_3w2Fg.c-megaModal
+limetorrents.lol##.table3
+linuxuprising.com##.ads-posting
+liverpoolecho.co.uk##.prompt-is-shown.v1.footer-contribution
+liverpoolecho.co.uk##.secondary.related-column
+liverpoolecho.co.uk##.topbox-cls-placeholder
+mac-torrents.io##.code-block-1.code-block > div
+macleans.ca###sidebarContainer-1189076Container0 > .ad.box.sticky
+members.boardhost.com##ul > b > p
+news.sky.com###leaderboard
+news.sky.com##div.ui-liveblog-adslot > .sdc-site-au
+nzb.su###logo > center
+opensubtitles.org###WarningCodecBanner > div
+opensubtitles.org###ad1-placeholder
+patient.info##.AdsBlockerBanner_ads-blocker-banner__ZQo12
+pets4homes.co.uk##.ig.Cc
+phoronix.com###f481a
+pistonheads.com##.fixed-right.mpu.msg-ad
+pistonheads.com###leaderBoard
+pornhub.com##.abAlertInner
+! Hide Reddit 'Top Broadcast Now' & 'Top livestream'
+reddit.com##a[href^="/rpan/"] > h3:has-text(/Top (livestream|broadcast)/):upward(7)
+||strapi.reddit.com^$xhr,domain=reddit.com
+reddit.com##.premium-banner
+reddit.com##.scrollerItem.hrQ5rXDbyl6t3TIXxENXB._3Qkp11fjcAw9I9wtLo8frE._1EG7_Cm18ANvUvJ4rJdRgQ
+reddit.com##._1b1Jalg2nxA_Z-BjKXRfAV
+reddit.com##._10wb7d3rGvj56Gcs4IQWL5._1FUNcfOeszr8eruqLxCMcR > div._2vEf-C2keJaBMY9qk_BxVn > ._2QeqBqfT5UbHBoViZUt-wX._1G4yU68P50vRZ4USXfaceV
+reddit.com##._1vYrJH5uc57mZQJPN4l34E > ._2vEf-C2keJaBMY9qk_BxVn > ._2QeqBqfT5UbHBoViZUt-wX._1G4yU68P50vRZ4USXfaceV.avKlJzxZU3brq4nAX0_i1
+servethehome.com##.td-g-rec-id-sidebar.td-g-rec
+servethehome.com##.td-with-like.td-post-sharing-bottom.td-post-sharing
+servethehome.com##.td-with-like.td-post-sharing-top.td-post-sharing
+servethehome.com##.widget_custom_html.custom_html-6.widget.td_block_template_1.widget_text
+smythstoys.com##.in.fade.modal
+smythstoys.com##.in.fade.modal-backdrop
+snbforums.com###div-gpt-ad-300-right
+snbforums.com##.js-replyNewMessageContainer.block-body > div
+snbforums.com##.leaderboard_snbad
+swisscows.com###viewport > .main > .section--web > .page-results > .row > .web-results > .banners-wrap
+swisscows.com###viewport > .main > .section--web > .page-results > .row > .web-results > article.sales.item--web.item
+techadvisor.co.uk###JEmqNkinZ
+telegraph.co.uk###advert_tmg_ban
+telegraph.co.uk##div.u-full-bleed
+telegraph.co.uk###main-content > .grid > div.grid-col-12.grid-col:nth-of-type(1)
+theguardian.com###dfp-ad--inline1
+theguardian.com###dfp-ad--inline2
+theguardian.*##.top-banner-ad-container
+theregister.co.uk###RegCTBWF
+theregister.com###RegCTBWF
+theregister.co.uk##.ad-eagle.bird
+theregister.co.uk##.ad-falcon.bird
+theregister.com##.ad-eagle.bird
+theregister.com##.ad-falcon.bird
+theregister.com##.adun
+theregister.com###bc_cta
+theregister.com##.rt-broadcast.srow
+theregister.com##.has_label.rt-9bq.srow
+thetimes.co.uk##.r-13qz1uu.r-1w50u8q.r-utggzx.r-6ity3w.r-1yflyrw.r-13awgt0.r-5kkj8d.r-1ozwgwe.r-qklmqi.r-91l5k4.r-1awozwy.css-1dbjc4n
+thetimes.co.uk###react-edition-subscription-marketing-banner-slice
+theverge.com##.m-privacy-consent,.m-privacy-consent
+theverge.com###privacy-consent,#privacy-consent
+torrentfreak.com##.widget_custom_html.o-widget.widget_text
+waitrose.com##div[class^="overlay_"]
+waitrose.com##+js(ra, class, body)
+whattomine.com##.my-2 > .centered-image-short
+whattomine.com##.my-2.row
+wired.com###failsafe-clickthrough
+xvideos.com###disclaimer_background
+youtube.com##+js(set, yt.config_.openPopupConfig.supportedPopups.adBlockMessageViewModel, false)
+youtube.com##+js(set, Object.prototype.adBlocksFound, 0)
+youtube.com##+js(set, ytplayer.config.args.raw_player_response.adPlacements, [])
+youtube.com##+js(set, Object.prototype.hasAllowedInstreamAd, true)
+www.briskoda.net###snack_dex10
+www.briskoda.net##li.ipsDataItem:nth-of-type(2)
+www.dailymail.co.uk##ad-slot
